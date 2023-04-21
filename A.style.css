@@ -465,7 +465,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   box-shadow: none
 }
 
-.alime-btn {
+.ja-btn {
   position: relative;
   z-index: 1;
   min-width: 160px;
@@ -486,11 +486,11 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   transition-duration: 500ms
 }
 
-.alime-btn.btn-2 {
+.ja-btn.btn-2 {
   color: #fff;
 }
 
-.alime-btn:focus, .alime-btn:hover {
+.ja-btn:focus, .ja-btn:hover {
   font-weight: 500;
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, .15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, .15);
@@ -1352,7 +1352,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   margin-bottom: 20px
 }
 
-.alime-blockquote {
+.ja-blockquote {
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
@@ -1361,7 +1361,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   padding-left: 30px
 }
 
-.alime-blockquote h4 {
+.ja-blockquote h4 {
   margin-bottom: 15px;
   font-size: 24px;
   color: #161715;
@@ -1370,12 +1370,12 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 }
 
 @media only screen and (max-width:767px) {
-  .alime-blockquote h4 {
+  .ja-blockquote h4 {
     font-size: 18px
   }
 }
 
-.alime-blockquote h6 {
+.ja-blockquote h6 {
   font-size: 18px;
   color: #590995;
   text-transform: uppercase;
@@ -1383,7 +1383,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 }
 
 @media only screen and (max-width:767px) {
-  .alime-blockquote h6 {
+  .ja-blockquote h6 {
     font-size: 14px
   }
 }
@@ -1445,12 +1445,12 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   color: #590995
 }
 
-.alime-pager-area {
+.ja-pager-area {
   position: relative;
   z-index: 1
 }
 
-.alime-pager-area .previous, .alime-pager-area .next {
+.ja-pager-area .previous, .ja-pager-area .next {
   width: 100%;
   position: relative;
   z-index: 1;
@@ -1458,12 +1458,12 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 }
 
 @media only screen and (max-width:767px) {
-  .alime-pager-area .previous, .alime-pager-area .next {
+  .ja-pager-area .previous, .ja-pager-area .next {
     height: 180px
   }
 }
 
-.alime-pager-area .previous::after, .alime-pager-area .next::after {
+.ja-pager-area .previous::after, .ja-pager-area .next::after {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -1479,7 +1479,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   visibility: hidden
 }
 
-.alime-pager-area .previous .overlay-content, .alime-pager-area .next .overlay-content {
+.ja-pager-area .previous .overlay-content, .ja-pager-area .next .overlay-content {
   position: absolute;
   width: 70%;
   height: 100%;
@@ -1489,23 +1489,23 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   z-index: 100
 }
 
-.alime-pager-area .previous .overlay-content .post-title, .alime-pager-area .next .overlay-content .post-title {
+.ja-pager-area .previous .overlay-content .post-title, .ja-pager-area .next .overlay-content .post-title {
   font-size: 24px;
   color: #fff;
   margin-bottom: 0
 }
 
 @media only screen and (max-width:767px) {
-  .alime-pager-area .previous .overlay-content .post-title, .alime-pager-area .next .overlay-content .post-title {
+  .ja-pager-area .previous .overlay-content .post-title, .ja-pager-area .next .overlay-content .post-title {
     font-size: 14px
   }
 }
 
-.alime-pager-area .previous .overlay-content .post-title:hover, .alime-pager-area .previous .overlay-content .post-title:focus, .alime-pager-area .next .overlay-content .post-title:hover, .alime-pager-area .next .overlay-content .post-title:focus {
+.ja-pager-area .previous .overlay-content .post-title:hover, .ja-pager-area .previous .overlay-content .post-title:focus, .ja-pager-area .next .overlay-content .post-title:hover, .ja-pager-area .next .overlay-content .post-title:focus {
   color: #590995
 }
 
-.alime-pager-area .previous .overlay-content .previous-link, .alime-pager-area .previous .overlay-content .next-link, .alime-pager-area .next .overlay-content .previous-link, .alime-pager-area .next .overlay-content .next-link {
+.ja-pager-area .previous .overlay-content .previous-link, .ja-pager-area .previous .overlay-content .next-link, .ja-pager-area .next .overlay-content .previous-link, .ja-pager-area .next .overlay-content .next-link {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -1522,20 +1522,20 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   opacity: 0
 }
 
-.alime-pager-area .previous .overlay-content .previous-link:hover, .alime-pager-area .previous .overlay-content .previous-link:focus, .alime-pager-area .previous .overlay-content .next-link:hover, .alime-pager-area .previous .overlay-content .next-link:focus, .alime-pager-area .next .overlay-content .previous-link:hover, .alime-pager-area .next .overlay-content .previous-link:focus, .alime-pager-area .next .overlay-content .next-link:hover, .alime-pager-area .next .overlay-content .next-link:focus {
+.ja-pager-area .previous .overlay-content .previous-link:hover, .ja-pager-area .previous .overlay-content .previous-link:focus, .ja-pager-area .previous .overlay-content .next-link:hover, .ja-pager-area .previous .overlay-content .next-link:focus, .ja-pager-area .next .overlay-content .previous-link:hover, .ja-pager-area .next .overlay-content .previous-link:focus, .ja-pager-area .next .overlay-content .next-link:hover, .ja-pager-area .next .overlay-content .next-link:focus {
   color: #590995
 }
 
-.alime-pager-area .previous:hover::after, .alime-pager-area .previous:focus::after, .alime-pager-area .next:hover::after, .alime-pager-area .next:focus::after {
+.ja-pager-area .previous:hover::after, .ja-pager-area .previous:focus::after, .ja-pager-area .next:hover::after, .ja-pager-area .next:focus::after {
   opacity: 1;
   visibility: visible
 }
 
-.alime-pager-area .previous:hover .previous-link, .alime-pager-area .previous:hover .next-link, .alime-pager-area .previous:focus .previous-link, .alime-pager-area .previous:focus .next-link, .alime-pager-area .next:hover .previous-link, .alime-pager-area .next:hover .next-link, .alime-pager-area .next:focus .previous-link, .alime-pager-area .next:focus .next-link {
+.ja-pager-area .previous:hover .previous-link, .ja-pager-area .previous:hover .next-link, .ja-pager-area .previous:focus .previous-link, .ja-pager-area .previous:focus .next-link, .ja-pager-area .next:hover .previous-link, .ja-pager-area .next:hover .next-link, .ja-pager-area .next:focus .previous-link, .ja-pager-area .next:focus .next-link {
   opacity: 1
 }
 
-.alime-pager-area .next .overlay-content .next-link {
+.ja-pager-area .next .overlay-content .next-link {
   left: auto;
   right: -10%
 }
@@ -1715,17 +1715,17 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   }
 }
 
-.alime-blog-area {
+.ja-blog-area {
   position: relative;
   z-index: 1
 }
 
-.alime-blog-area .row {
+.ja-blog-area .row {
   margin-right: -5px;
   margin-left: -5px
 }
 
-.alime-blog-area .row .col-12 {
+.ja-blog-area .row .col-12 {
   padding-right: 5px;
   padding-left: 5px
 }
@@ -1943,44 +1943,44 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   color: #000
 }
 
-.alime-portfolio-area {
+.ja-portfolio-area {
   position: relative;
   z-index: 1
 }
 
-.alime-portfolio-area .container-fluid {
+.ja-portfolio-area .container-fluid {
   padding-right: 10%;
   padding-left: 10%
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
-  .alime-portfolio-area .container-fluid {
+  .ja-portfolio-area .container-fluid {
     padding-right: 5%;
     padding-left: 5%
   }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
-  .alime-portfolio-area .container-fluid {
+  .ja-portfolio-area .container-fluid {
     padding-right: 5%;
     padding-left: 5%
   }
 }
 
 @media only screen and (max-width:767px) {
-  .alime-portfolio-area .container-fluid {
+  .ja-portfolio-area .container-fluid {
     padding-right: 5%;
     padding-left: 5%
   }
 }
 
-.alime-projects-menu {
+.ja-projects-menu {
   position: relative;
   z-index: 1;
   margin-bottom: 40px
 }
 
-.alime-projects-menu .portfolio-menu .btn {
+.ja-projects-menu .portfolio-menu .btn {
   position: relative;
   z-index: 1;
   padding: 0;
@@ -1996,13 +1996,13 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 }
 
 @media only screen and (max-width:767px) {
-  .alime-projects-menu .portfolio-menu .btn {
+  .ja-projects-menu .portfolio-menu .btn {
     font-size: 14px;
     margin: 0 5px
   }
 }
 
-.alime-projects-menu .portfolio-menu .btn::after {
+.ja-projects-menu .portfolio-menu .btn::after {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -2017,7 +2017,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   z-index: 1
 }
 
-.alime-projects-menu .portfolio-menu .btn.active::after {
+.ja-projects-menu .portfolio-menu .btn.active::after {
   width: 100%
 }
 
@@ -2090,7 +2090,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   margin-top: -26px
 }
 
-.alime-contact-form .form-control {
+.ja-contact-form .form-control {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -2103,12 +2103,12 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   border: 1px solid #ebebeb
 }
 
-.alime-contact-form .form-control:focus {
+.ja-contact-form .form-control:focus {
   box-shadow: none;
   border-color: #590995
 }
 
-.alime-contact-form textarea.form-control {
+.ja-contact-form textarea.form-control {
   height: 120px;
   padding: 20px
 }

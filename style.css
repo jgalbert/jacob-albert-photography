@@ -1,12 +1,4 @@
 /* ------------------------------------------
-[Master Stylesheet]
-
-Template Name: Alime - Photography HTML Template
-Template Author: Colorlib
-Template Author URL: http://colorlib.com
-Version: 1.0.0
-Last Update: Feb 22, 2019
-
 
 [Tables of CSS Content]
 
@@ -635,7 +627,7 @@ input:required {
   box-shadow: none;
 }
 
-.alime-btn {
+.ja-btn {
   position: relative;
   z-index: 1;
   min-width: 160px;
@@ -656,12 +648,12 @@ input:required {
   transition-duration: 500ms;
 }
 
-.alime-btn.btn-2 {
+.ja-btn.btn-2 {
   color: #252525;
 }
 
-.alime-btn:focus,
-.alime-btn:hover {
+.ja-btn:focus,
+.ja-btn:hover {
   font-weight: 500;
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
